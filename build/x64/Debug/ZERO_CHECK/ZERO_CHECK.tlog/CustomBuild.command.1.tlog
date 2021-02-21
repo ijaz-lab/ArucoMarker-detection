@@ -1,0 +1,10 @@
+^C:\ARUCOMARKER\BUILD\CMAKEFILES\EA21A7A0E691E8B2E74931AF414FFF24\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ArUcomarker -BC:/ArUcomarker/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/ArUcomarker/build/ArUcomarker.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

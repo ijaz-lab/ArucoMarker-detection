@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(arucomarker VERSION 0.1.0)
+project(ArUcomarker VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
 find_package(OpenCV REQUIRED)
 find_package(Threads REQUIRED)
 
-add_executable(arucomarker main.cpp)
+add_executable(ArUcomarker main.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
@@ -15,4 +15,4 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
-target_link_libraries(arucomarker ${OpenCV_LIBS} ${CMAKE_THREADS_LIB_INIT})
+target_link_libraries(ArUcomarker ${OpenCV_LIBS} ${CMAKE_THREADS_LIB_INIT})

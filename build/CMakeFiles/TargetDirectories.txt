@@ -1,0 +1,9 @@
+C:/ArUcomarker/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/ArUcomarker/build/CMakeFiles/Experimental.dir
+C:/ArUcomarker/build/CMakeFiles/Continuous.dir
+C:/ArUcomarker/build/CMakeFiles/Nightly.dir
+C:/ArUcomarker/build/CMakeFiles/ArUcomarker.dir
+C:/ArUcomarker/build/CMakeFiles/PACKAGE.dir
+C:/ArUcomarker/build/CMakeFiles/RUN_TESTS.dir
+C:/ArUcomarker/build/CMakeFiles/ALL_BUILD.dir
+C:/ArUcomarker/build/CMakeFiles/ZERO_CHECK.dir
